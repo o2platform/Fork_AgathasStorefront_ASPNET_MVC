@@ -35,6 +35,28 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agathas.Storefront.Services
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agathas.Storefront.Specs", "Agathas.Storefront.Specs\Agathas.Storefront.Specs.csproj", "{32C238E5-A1D5-4078-8ADD-BDB660CACC4F}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Agathas.Storefront.UI.Web.MVC", "Agathas.Storefront.UI.Web.MVC\", "{AC17FAF4-52DA-4281-B9BA-65BE5D93F541}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{8B611DD6-532F-48E6-BDBF-DD1ED34006BB}|Agathas.Storefront.Controllers.dll;{599E0CF8-AFBE-4007-A788-AEDB7F6E66F8}|Agathas.Storefront.Infrastructure.dll;{7F779F74-6584-48B9-8E1B-89578FE0A274}|Agathas.Storefront.Model.dll;{4827A280-FAF4-40B7-8999-D33E39D8E12A}|Agathas.Storefront.Services.dll;{F9D6A24B-6B55-4B5C-AEBA-6C8049CE598C}|Agathas.Storefront.Services.Cache.dll;{0543FBE9-088C-4895-85DA-6BB9C6A00244}|Agathas.Storefront.Repository.NHibernate.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Agathas.Storefront.UI.Web.MVC"
+		Debug.AspNetCompiler.PhysicalPath = "Agathas.Storefront.UI.Web.MVC\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Agathas.Storefront.UI.Web.MVC\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Agathas.Storefront.UI.Web.MVC"
+		Release.AspNetCompiler.PhysicalPath = "Agathas.Storefront.UI.Web.MVC\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Agathas.Storefront.UI.Web.MVC\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "35427"
+		VWDVirtualPath = "/"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +99,10 @@ Global
 		{32C238E5-A1D5-4078-8ADD-BDB660CACC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32C238E5-A1D5-4078-8ADD-BDB660CACC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32C238E5-A1D5-4078-8ADD-BDB660CACC4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC17FAF4-52DA-4281-B9BA-65BE5D93F541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC17FAF4-52DA-4281-B9BA-65BE5D93F541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC17FAF4-52DA-4281-B9BA-65BE5D93F541}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC17FAF4-52DA-4281-B9BA-65BE5D93F541}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
